@@ -19,8 +19,7 @@ return-type function_name (parameter 1, parameter2, …… parameter n){
 }
 return-type
 
-# The return type of a function is the data type of the variable that that function
-returns.
+# The return type of a function is the data type of the variable that that function returns.
 
 For eg - If we write a function that adds 2 integers and returns their sum then the return type of this function will be ‘int’ as we will return a sum that is an integer value.
 When a function does not return any value, in that case the return type of the
@@ -38,3 +37,22 @@ For eg- if we are writing a function to add 2 integers, the parameters would be 
 
 # main function
 The main function is a special function as the computer starts running the code from the beginning of the main function. Main function serves as the entry point for the program.
+
+# Example :
+
+package com.apnacollege;
+
+public class Main {
+    //A METHOD to calculate sum of 2 numbers - a & b
+    public static void sum(int a, int b) {
+        int sum = a + b;
+        System.out.println(sum);
+    }
+
+    public static void main(String[] args) {
+         int a = 10;
+         int b = 20;
+          sum(a, b); // Function Call
+    }
+
+}
