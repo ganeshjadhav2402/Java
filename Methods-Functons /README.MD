@@ -40,7 +40,7 @@ The main function is a special function as the computer starts running the code 
 
 # Example :
 
-package com.apnacollege;
+package com.ganesh;
 
 public class Main {
     //A METHOD to calculate sum of 2 numbers - a & b
