@@ -9,3 +9,6 @@ Part-1, Part-2, Part-3, Part-4, Part-5, Part-6, Part-7, Part-8, Part-9.
 
 # Methods/Functions
 A function is a block of code that performs a specific task.
+
+# Time & Space Complexity
+Explain a code working Time, and code spaces layers in storage tank.
