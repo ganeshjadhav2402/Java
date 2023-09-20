@@ -1,4 +1,4 @@
-# Methods/Functions
+# Methods/Functions 
 
 A function is a block of code that performs a specific task.
 Why are functions used?
