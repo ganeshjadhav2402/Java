@@ -13,13 +13,13 @@ Functions make maintenance of code easy as we have to change at one place if we 
 # c. 
 Functions make the code more readable and easy to understand.
 
- The # syntax for function declaration is :
+# The syntax for function declaration is :
 return-type function_name (parameter 1, parameter2, …… parameter n){
 //function_body
 }
 return-type
 
-The # return type of a function is the data type of the variable that that function
+# The return type of a function is the data type of the variable that that function
 returns.
 
 For eg - If we write a function that adds 2 integers and returns their sum then the return type of this function will be ‘int’ as we will return a sum that is an integer value.
