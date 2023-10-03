@@ -5,7 +5,7 @@ public class Strings {
 
   public static void main(String args[]) {
 
-    StringBuilder sb = new StringBuilder("tony");
+    StringBuilder sb = new StringBuilder("ganesh");
 
     //Insert char
 
