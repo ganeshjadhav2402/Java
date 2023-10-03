@@ -1,10 +1,8 @@
 # function to multiply 2 numbers.
-
 import java.util.*;
  
 
 public class Functions {
-
 
    //Multiply 2 numbers
 
