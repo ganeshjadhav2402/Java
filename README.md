@@ -12,3 +12,5 @@ A function is a block of code that performs a specific task.
 
 # Time & Space Complexity
 Explain a code working Time, and code spaces layers in storage tank.
+
+# Arrays
