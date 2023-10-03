@@ -5,9 +5,9 @@ public class Strings {
 
     public static void main(String args[]) {
 
-      StringBuilder sb = new StringBuilder("Tony");
+      StringBuilder sb = new StringBuilder("Ganesh");
 
-      sb.append(" Stark");
+      sb.append(" Jadhav");
 
       System.out.println(sb);
 
