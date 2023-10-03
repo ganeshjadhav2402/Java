@@ -1,5 +1,4 @@
 # function to calculate the factorial of a number.
-
 import java.util.*;
 
 
