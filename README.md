@@ -1,4 +1,4 @@
-# Java 
+#  Java 
 
 # Loops
 Print if a number is prime or not (Input n from the user).
