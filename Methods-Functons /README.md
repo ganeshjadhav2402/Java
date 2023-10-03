@@ -40,7 +40,7 @@ The main function is a special function as the computer starts running the code 
 
 # Example :
 
-package com.ganesh;
+package java.com
 
 public class Main {
     //A METHOD to calculate sum of 2 numbers - a & b
@@ -48,7 +48,6 @@ public class Main {
         int sum = a + b;
         System.out.println(sum);
     }
-
     public static void main(String[] args) {
          int a = 10;
          int b = 20;
