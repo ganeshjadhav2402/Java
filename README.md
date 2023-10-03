@@ -14,4 +14,4 @@ A function is a block of code that performs a specific task.
 Explain a code working Time, and code spaces layers in storage tank.
 
 # Arrays
-# Strings
+# Strings (String Builder)
