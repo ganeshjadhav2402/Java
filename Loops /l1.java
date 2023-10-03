@@ -1,72 +1,74 @@
- import java.util.*;
+import java.util.*;
+
 
 public class Conditions {
 
-public static void main(String args[]) {
+ public static void main(String args[]) {
 
-Scanner sc = new Scanner(System.in);
+  Scanner sc = new Scanner(System.in);
 
-int a = sc.nextInt();
+  int a = sc.nextInt();
 
-int b = sc.nextInt();
+  int b = sc.nextInt();
 
-int operator = sc.nextInt();
+  int operator = sc.nextInt();
 
-/**
+  /**
 
-* 1 -> +
+  * 1 -> +
 
-* 2 -> -
+  * 2 -> -
 
-* 3 -> *
+  * 3 -> *
 
-* 4 -> /
+  * 4 -> /
 
-* 5 -> %
+  * 5 -> %
 
-*/
+  */
 
-switch(operator) {
+  switch(operator) {
 
-case 1 : System.out.println(a+b);
+   case 1 : System.out.println(a+b);
 
-break;
+    break;
 
-case 2 : System.out.println(a-b);
+   case 2 : System.out.println(a-b);
 
-break;
+    break;
 
-case 3 : System.out.println(a*b);
+   case 3 : System.out.println(a*b);
 
-break;
+    break;
 
-case 4 : if(b == 0) {
+   case 4 : if(b == 0) {
 
-System.out.println("Invalid Division");
+    System.out.println("Invalid Division");
 
-} else {
+   } else {
 
-System.out.println(a/b);
+    System.out.println(a/b);
 
-}
+   }
 
-break;
+    break;
 
-case 5 : if(b == 0) {
+   case 5 : if(b == 0) {
 
-System.out.println("Invalid Division");
+    System.out.println("Invalid Division");
 
-} else {
+   } else {
 
-System.out.println(a%b);
+    System.out.println(a%b);
 
-}
+   }
 
-break;
+    break;
 
-default : System.out.println("Invalid Operator");
+   default : System.out.println("Invalid Operator");
 
-}
+  }
 
-}
+ }
+
 }
