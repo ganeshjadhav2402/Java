@@ -1,47 +1,46 @@
-
-
 import java.util.*;
+
 
 public class Solutions {
 
-public static void main(String args[]) {
+  public static void main(String args[]) {
 
-Scanner sc = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);
 
-int n = sc.nextInt();
+    int n = sc.nextInt();
 
-boolean isPrime = true;
+    boolean isPrime = true;
 
-for(int i=2; i<=n/2; i++) {
+    for(int i=2; i<=n/2; i++) {
 
-if(n % i == 0) {
+      if(n % i == 0) {
+        
+        isPrime = false;
 
-isPrime = false;
+        break;
 
-break;
+      }
 
-}
+    }
 
-}
+    if(isPrime) {
 
-if(isPrime) {
+      if(n == 1) {
 
-if(n == 1) {
+        System.out.println("This is neither prime not composite");
 
-System.out.println("This is neither prime not composite");
+      } else {
 
-} else {
+        System.out.println("This is a prime number");
 
-System.out.println("This is a prime number");
+      }
 
-}
+    } else {
 
-} else {
+      System.out.println("This is not a prime number");
 
-System.out.println("This is not a prime number");
+    }
 
-}
-
-}
+  }
 
 }
