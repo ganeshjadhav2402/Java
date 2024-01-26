@@ -58,43 +58,43 @@ For example: int consumes 4 bytes of memory.
 # Arrays In Java
 Arrays in Java are like a list of elements of the same type i.e. a list of integers, a list of
 booleans etc.
-            a. Creating an Array (method 1) - with new keyword
-                int[] marks = new int[3];
-                marks[0] = 97;
-                marks[1] = 98;
-                marks[2] = 95;
+            a. Creating an Array (method 1) - with new keyword <br>
+                **int[] marks = new int[3]; <br>
+                marks[0] = 97; <br>
+                marks[1] = 98; <br>
+                marks[2] = 95; <br>**
             b. Creating an Array (method 2)
-                int[] marks = {98, 97, 95};
+                **int[] marks = {98, 97, 95};**
 
-# Strings (String Builder)
+# Strings (String Builder) <br>
 ALWAYS REMEMBER : Java Strings are Immutable.
 
-*Declaration*
-   String name = "Ganesh";
+*Declaration* <br>
+   **String name = "Ganesh";**
 
-*Taking Input*
-   Scanner sc = new Scanner(System.in);
-   String name = sc.next();
+*Taking Input* <br>
+   **Scanner sc = new Scanner(System.in); <br>
+   String name = sc.next();**
 
-*Concatenation (Joining 2 strings)*
-   String firstName = "Ganesh";
-   String secondName = "Jadhav";
-   String fullName = firstName + " " + secondName;
-   System.out.println(fullName);
+*Concatenation (Joining 2 strings)* <br>
+   **String firstName = "Ganesh"; <br>
+   String secondName = "Jadhav"; <br>
+   String fullName = firstName + " " + secondName; <br>
+   System.out.println(fullName);**
 
-*Print length of a String*
-   String firstName = "Ganesh";
-   String secondName = "Jadhav";
-   String fullName = firstName + " " + secondName;
-   System.out.println(fullName.length());
+*Print length of a String* <br>
+   **String firstName = "Ganesh"; <br>
+   String secondName = "Jadhav"; <br>
+   String fullName = firstName + " " + secondName; <br>
+   System.out.println(fullName.length());**
 
-*Access characters of a string*
-   String firstName = "Ganesh";
-   String secondName = "Jadhav";
-   String fullName = firstName + " " + secondName;
-   for(int i=0; i<fullName.length(); i++) {
+*Access characters of a string* <br>
+   **String firstName = "Ganesh"; <br>
+   String secondName = "Jadhav"; <br>
+   String fullName = firstName + " " + secondName; <br>
+   for(int i=0; i<fullName.length(); i++) { <br>
    System.out.println(fullName.charAt(i));
-   }
+   }**
    
 
 ## Join us for new Collabe and Adding Some new Features in JAVA and C++ PRojects.
