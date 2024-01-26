@@ -67,8 +67,35 @@ booleans etc.
                 int[] marks = {98, 97, 95};
 
 # Strings (String Builder)
+ALWAYS REMEMBER : Java Strings are Immutable.
 
+*Declaration*
+   String name = "Ganesh";
 
+*Taking Input*
+   Scanner sc = new Scanner(System.in);
+   String name = sc.next();
+
+*Concatenation (Joining 2 strings)*
+   String firstName = "Ganesh";
+   String secondName = "Jadhav";
+   String fullName = firstName + " " + secondName;
+   System.out.println(fullName);
+
+*Print length of a String*
+   String firstName = "Ganesh";
+   String secondName = "Jadhav";
+   String fullName = firstName + " " + secondName;
+   System.out.println(fullName.length());
+
+*Access characters of a string*
+   String firstName = "Ganesh";
+   String secondName = "Jadhav";
+   String fullName = firstName + " " + secondName;
+   for(int i=0; i<fullName.length(); i++) {
+   System.out.println(fullName.charAt(i));
+   }
+   
 
 **Join us for new Collabe and Adding Some new Features in JAVA and C++ PRojects.**
 - Join LinkedIn: **https://www.linkedin.com/in/ganesh-jadhav-951213225/**
